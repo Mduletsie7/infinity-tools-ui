@@ -16,6 +16,9 @@ export default function Home() {
         <Link href="/vulnerability-auto">
           <Button className="px-6 py-3 text-lg">Vulnerability Automation</Button>
         </Link>
+          <Link href="/update-repo">
+              <Button className="px-6 py-3 text-lg">Update Repo Status To Pending</Button>
+          </Link>
       </div>
     </div>
   );
